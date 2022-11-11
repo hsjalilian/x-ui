@@ -119,7 +119,7 @@ Date.prototype.formatTime = function () {
 };
 
 /**
- * 格式化日期加时间
+ * Format date plus time
  *
  * @param split 日期和时间之间的分隔符，默认是一个空格
  */
@@ -129,7 +129,7 @@ Date.prototype.formatDateTime = function (split = ' ') {
 
 class DateUtil {
 
-    // 字符串转 Date 对象
+    // String to Date object
     static parseDate(str) {
         return new Date(str.replace(/-/g, '/'));
     }
